@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+.galeria{
+    width: 640px;
+    height: 360px;
+    background-color: aqua;
+    overflow: overlay;
+}
+.galeria .fotos{
+    width: 500%;
+    animation-name: anima;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+
+}
+.galeria > .fotos > img{
+    width: 19%;
+    height: 360px;
+
+}
+
+@keyframes anima {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    75%{margin-left: -300%;}
+    95%{margin-left: -300%;}
+    100%{margin-left: -400%;}    
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #232531 #fecb00;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: #fecb00;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #232531;
+    border-radius: 20px;
+    border: 3px solid #fecb00;
+  }
+  #estado{
+    width: 45vw;
+    margin-right: 5%;
+  }
+#logo_png{
+  height: 45px;
+}
+.login_ico{height: 45px;}
+.literalmonei{
+  height: 45px;
+  margin: 0px 5px 0px 35px;
+}
+.categoria_margin{
+  margin-right: 30px;
+}
+#carrocel > div > .carousel-inner{
+  height: 50vh;
+}
+#pag > div > div > div > img{
+  height: 400px;
+}
+#pag{
+  margin: 1%;
+}
+html, body 
+{ 
+  overflow-x: hidden;
+}
+#header > nav{
+  padding: 15px 0px 0px 0px;
+  background-color: #232531;
+  color: #fecb00;
+}
+#main_principal{
+  padding: 30px;
+}
+#main_principal > div{
+  margin-bottom: 40px;
+}
+
+#main_principal > div >div{
+
+  transition: .5s;
+}
+
+#main_principal > div >div:hover{
+  box-shadow: 11px 15px 13px #000000a8;
+  transform: scale(1.05);
+  transition: .5s;
+}
+
+.btn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
