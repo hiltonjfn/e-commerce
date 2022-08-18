@@ -64,13 +64,7 @@ function header(){
           <li class="nav-item ">
           <form class="d-flex">
 
-          <select onclick="pesquisa()" id="estado">  
-          <option value="Nulo">Pesquisar</option>
-          <option value="Abilify">Abilify</option>
-          <option value="Abilify">Aipr</option>
-          <option value="Aropax">Zyparox</option> 
-          <option value="?">?</option>
-          </select>
+          <input id="barra_pesquisa" onkeyup="google(value)" type="text">
       
           <button class="btn btn-outline-success" type="submit">Pesquisar</button>
 
