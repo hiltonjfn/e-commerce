@@ -7,7 +7,7 @@ function carrocel(){
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./img/cr1.png" class="d-md-block w-100" alt="...">
+        <img src="./img/cr1.jpg" class="d-md-block w-100" alt="...">
       </div>
       <div class="carousel-item">
         <img src="./img/cr2.png" class="d-block w-100" alt="...">
