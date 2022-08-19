@@ -94,7 +94,7 @@ html, body
 }
 
 #main_principal > div >div:hover{
-  box-shadow: 11px 15px 13px #000000a8;
+  box-shadow: 11px 15px 13px #0000005d;
   transform: scale(1.05);
   transition: .5s;
 }
@@ -110,6 +110,15 @@ html, body
   font-size: 16px;
 }
 #barra_pesquisa{
-  width: 34rem;
+  width: 37rem;
   margin: 0px 1rem;
+}
+#navbarSupportedContent{
+  text-align: center;
+}
+#exampleModal2{
+  background-image: url('https://images2.alphacoders.com/261/thumb-1920-26102.jpg');
+}
+#carrinho_div > div > p{
+  display: inline-block;
 }
