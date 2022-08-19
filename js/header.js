@@ -66,34 +66,35 @@ function header(){
 
           <input id="barra_pesquisa" onkeyup="google(value)" type="text">
       
-          <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          <button class="btn btn-outline-success">Pesquisar</button>
 
 
           
         </form>
           </li>
-          <img class="literalmonei" src="img/lm.png" alt="">
+          <img data-bs-toggle="modal" data-bs-target="#exampleModal" class="literalmonei" src="img/lm.png" alt="">
         <li class="nav-item">
-          <a data-bs-toggle="modal" data-bs-target="#exampleModal" style="color: #fecb00;" class="nav-link" href="#">Moedas literárias</a>
+          <a data-bs-toggle="modal" data-bs-target="#exampleModal" style="color: #fecb00;padding: 0px;width: 90px;" class="nav-link" href="#">Moedas literárias</a>
          </li>
 
           <img class="login_ico" src="img/icone.png" alt="">
           <li class="nav-item">
           
-          <a  style="color: #fecb00;" class="nav-link" href="#">
+          <a id="log"  data-bs-toggle="modal" data-bs-target="#exampleModal2" style="color: #fecb00;padding: 0px;width: 115px;" class="nav-link" href="#">
           
           Entre ou
           cadastre-se</a>
           </li>
+          <a class="navbar-brand" href="#">
+         <img data-bs-toggle="modal" data-bs-target="#exampleModal3" onclick="carregar()" id="logo_png" src="https://cdn-icons-png.flaticon.com/512/5234/5234583.png" alt="">
+        </a>
         </ul>
         
        
       </div>
       
     </div>
-    <a class="navbar-brand" href="#">
-      <img onclick="carregar()" id="logo_png" src="https://cdn-icons-png.flaticon.com/512/5234/5234583.png" alt="">
-      </a>
+    
   </nav>`
 }
 
