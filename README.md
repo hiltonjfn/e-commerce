@@ -13,3 +13,5 @@ O resultado final ficou aceitável porem o código não esta tão bonito porem c
 E de quebra foi um dos trabalhos apresentados com maior nota da classe.
 
 Caso queira conferir o resultado final:https://hiltonjfn.github.io/e-commerce/
+
+# Como foi feito
