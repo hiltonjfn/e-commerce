@@ -16,3 +16,6 @@ Caso queira conferir o resultado final:https://hiltonjfn.github.io/e-commerce/
 
 # Como foi feito
 
+1º passo: O site era sobre venda de livros online então para isso precisávamos de uma lista de informações, como nome, preço e gênero, o meto mais correto seria criar um banco de dados ou um arquivo JSON... só que infelizmente não tínhamos tempo então improvisei com um bloco de nota em formato de Array e pedi para minha irmã colocar as informações.
+
+2º passo: O site tinha que ser bonito e eu não tinha tempo para criar todo um layout eu mesmo... Então tive que apelar para **Bootstrap** o segundo problema é que ela tinha que explicar como o site foi feito então eu criei uma estrutura meio parecida com **React** onde o código HTML era enviado via **JavaScript** para o index, além disso não sabíamos ao certo como seria a aparência do site, fui criando no improviso sem tempo para prototipar, por isso cada elemento foi separado em um arquivo JS deferente.
