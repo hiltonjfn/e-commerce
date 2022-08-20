@@ -1,6 +1,6 @@
 # e-commerce
 
-Um pequeno projeto para apresentação escolar (Etec Carapicuíba)
+Um pequeno projeto para apresentação escolar **(Etec Carapicuíba)**
 
 O objetivo aqui era criar um modelo de negocio e apresentar como tudo funcionaria.
 
